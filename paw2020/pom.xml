@@ -70,7 +70,11 @@
   </modules>
 
  	<properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
 		<maven-eclipse-plugin.version>2.10</maven-eclipse-plugin.version>
+        <org.springframework.version>4.2.5.RELEASE</org.springframework.version>
 	</properties>	
 
 
@@ -90,7 +94,24 @@
 
 	</plugins>
 
-</build>       
+</build>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-webmvc</artifactId>
+                <version>${org.springframework.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.11</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+
+    </dependencyManagement>
 
 
 

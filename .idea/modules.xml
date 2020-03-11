@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/paw2020/interfaces/interfaces.iml" filepath="$PROJECT_DIR$/paw2020/interfaces/interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paw2020/model/model.iml" filepath="$PROJECT_DIR$/paw2020/model/model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paw2020/paw2020.iml" filepath="$PROJECT_DIR$/paw2020/paw2020.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/pawProject2020.iml" filepath="$PROJECT_DIR$/.idea/pawProject2020.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paw2020/persistance/persistance.iml" filepath="$PROJECT_DIR$/paw2020/persistance/persistance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paw2020/services/services.iml" filepath="$PROJECT_DIR$/paw2020/services/services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paw2020/webApp/webApp.iml" filepath="$PROJECT_DIR$/paw2020/webApp/webApp.iml" />
     </modules>
   </component>
 </project>
